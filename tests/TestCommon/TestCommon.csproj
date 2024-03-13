@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\RainfallApi.Domain\RainfallApi.Domain.csproj" />
+    <ProjectReference Include="..\..\src\RainfallApi.Application\RainfallApi.Application.csproj" />
+    <ProjectReference Include="..\..\src\RainfallApi.Infrastructure\RainfallApi.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" />
+    <PackageReference Include="Moq" />
+    <PackageReference Include="NSubstitute" />
+    <PackageReference Include="xunit" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <IsTestProject>false</IsTestProject>
+  </PropertyGroup>
+
+</Project>
